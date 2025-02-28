@@ -1,0 +1,84 @@
+/* Button Styles */
+button {
+    padding: 10px 20px;
+    background-color: #5d8bfc;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 10%;
+    display: block;
+    margin: 20px auto;
+    
+}
+
+button:hover {
+    background-color: #4a7bcc;
+}
+
+/* Add Stock Button */
+#add-stock-button {
+    display: block;
+    background-color: #4caf50;
+    margin: 0 auto;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+}
+
+#add-stock-button i {
+    margin-right: 8px; /* Space between icon and text */
+}
+
+#add-stock-button:hover {
+    background-color: #45a049;
+}
+
+/* Stock form */
+form {
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+/* Portfolio Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #5d8bfc;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%;
+}
+
+button:hover {
+    background-color: #e44d4d;
+}
